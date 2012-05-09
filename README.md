@@ -1,4 +1,6 @@
-_Disclaimer: This fork has been updated to work with Backbone 0.5.3_
+Forked from [angelo0000](https://github.com/angelo0000/backbone_filters).
+This is the same plugin rewritten in CoffeeScript and wrapped as an AMD module.
+It probably won't be useful to you but it is useful to me.
 
 # Usage
 
@@ -19,7 +21,7 @@ after: {
 	'^clerks' : function() {
 		/* do stuff */
 	},
-	'another reg ex' : function() { }	
+	'another reg ex' : function() { }
 }
 ```
 

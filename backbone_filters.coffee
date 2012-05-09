@@ -36,7 +36,7 @@ define (require) ->
         @trigger.apply(this, ['route:' + name].concat(args))
     , this))
 
-    _.extend(Backbone.Router.prototype, Backbone.Events, filters)
+  _.extend(Backbone.Router.prototype, Backbone.Events, filters)
 
-    Backbone
+  Backbone
 
